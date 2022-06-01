@@ -1,0 +1,25 @@
+.logout {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Abel', sans-serif;
+  }
+  
+  .logoutBtn {
+    min-width: 300px;
+    padding: 17px 30px;
+    margin-top: 20px;
+    background: rgba(255, 255, 0, 0.674);
+    border: none;
+    color: black;
+    font-size: 26px;
+    font-family: 'Abel', sans-serif;
+    border-radius: 3px;
+  }
+  
+  .userName {
+    color: rgba(125, 112, 127, 0.836);;
+  }
