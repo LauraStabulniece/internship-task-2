@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import '../Components/Login.css';
-import { login } from "../features/userSlice";
+import { login } from "../app/reducers/userSlice";
 
 function Login() {
     const [name, setName] = useState("");
@@ -39,6 +39,7 @@ function Login() {
                 />
                 <input type="password"
                     placeholder="Password"
+                    // required minLength="8"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                 />
